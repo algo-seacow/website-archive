@@ -1,4 +1,4 @@
-url = 'https://people.cs.nctu.edu.tw/~tzuli110/AlgoSeacow/'
+url = 'https://algo-seacow.github.io/'
 // url = ''
 
 nav = '<nav class="navbar navbar-expand-lg fixed-top navbar-light bg-white font-weight-600"> \
