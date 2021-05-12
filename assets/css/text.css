@@ -25,12 +25,21 @@ h3 {
 }
 
 p {
-	margin: 0;
+	margin: 3px;
+	font-family: 'Roboto';
 }
 
 a {
 	color: black;
 	text-decoration: none;
+}
+
+li {
+	font-family: 'Roboto';
+}
+
+table {
+	font-family: 'Roboto';
 }
 
 .read-more {

@@ -30,6 +30,7 @@
 
 .wrap-container-slogan {
 	height: 100%;
+	width: 100%;
 }
 
 .wrap-slogan {
@@ -46,6 +47,12 @@
 	overflow-wrap: break-word;
   	word-wrap: break-word;
   	hyphens: auto;
+  	vertical-align: center;
+}
+
+.slogan-container img {
+	height: 250px;
+	display: inline-block;
 }
 
 .trigger-slogan-animate {
@@ -78,19 +85,108 @@
 }
 
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1050px) {
 	.slogan-container {
 		width: 90%;
 		position: absolute;
-		top: -webkit-calc(50% - 220px);
-	    top: calc(50% - 220px);
+		top: -webkit-calc(50% - 250px);
+	    top: calc(50% - 250px);
+		height: auto;
+		padding: 30px;
+	}
+  	.slogan {
+  		font-size: 70;
+  	}
+  	.slogan-info {
+		font-size: 30;
+	}
+
+	.slogan-container img {
+		height: 200px;
+		display: inline-block;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	.slogan-container {
+		position: absolute;
+		top: -webkit-calc(50% - 200px);
+	    top: calc(50% - 200px);
+		height: auto;
+		padding: 40px;
+	}
+  	.slogan {
+  		font-size: 50;
+  	}
+  	.slogan-info {
+		font-size: 25;
+	}
+
+	.slogan-container img {
+		height: 170px;
+		display: inline-block;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.slogan-container {
+		position: absolute;
+		top: -webkit-calc(50% - 200px);
+	    top: calc(50% - 200px);
 		height: auto;
 		padding: 50px;
 	}
   	.slogan {
-  		font-size: 50px;
+  		font-size: 40;
   	}
   	.slogan-info {
-		font-size: 15;
+		font-size: 20;
+	}
+
+	.slogan-container img {
+		height: 170px;
+		display: inline-block;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.slogan-container {
+		position: absolute;
+		top: -webkit-calc(50% - 200px);
+	    top: calc(50% - 200px);
+		height: auto;
+		padding: 50px;
+	}
+  	.slogan {
+  		font-size: 30;
+  	}
+  	.slogan-info {
+		font-size: 20;
+	}
+
+	.slogan-container img {
+		height: 170px;
+		display: inline-block;
+	}
+}
+
+@media only screen and (max-width: 350px) {
+	.slogan-container {
+		position: absolute;
+		top: -webkit-calc(50% - 200px);
+	    top: calc(50% - 200px);
+		height: auto;
+		padding: 30px;
+	}
+  	.slogan {
+  		font-size: 30;
+  	}
+  	.slogan-info {
+		font-size: 20;
+	}
+
+	.slogan-container img {
+		height: 170px;
+		display: inline-block;
 	}
 }

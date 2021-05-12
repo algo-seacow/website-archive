@@ -11,10 +11,10 @@ nav = '<nav class="navbar navbar-expand-lg fixed-top navbar-light bg-white font-
       <div class="container-fluid" style="justify-content: flex-end;"> \
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup"> \
           <div class="navbar-nav"> \
-            <a class="nav-link active" aria-current="page" href="' + url + '#">Home</a> \
-            <a class="nav-link" href="' + url + '#about">About</a> \
-            <a class="nav-link" href="' + url + '#courses">Courses</a> \
-            <a class="nav-link" href="' + url + '#members">Members</a> \
+            <a class="nav-link active" aria-current="page" href="' + url + '#">首頁</a> \
+            <a class="nav-link" href="' + url + '#about">關於我們</a> \
+            <a class="nav-link" href="' + url + '#courses">課程資訊</a> \
+            <a class="nav-link" href="' + url + '#members">團隊成員</a> \
           </div> \
         </div> \
       </div> \

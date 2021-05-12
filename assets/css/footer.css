@@ -24,6 +24,15 @@
 	margin-bottom: 10px;
 }
 
+.footer p {
+	font-size: 18px;
+	/*font-family: 'Roboto';*/
+}
+
+.footer a {
+	font-size: 18px;
+}
+
 .footer .cc-img {
 	margin: 15px;
 	height: 30px;
