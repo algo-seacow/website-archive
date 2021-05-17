@@ -49,7 +49,7 @@ var members = [
       {
         "title": "學歷背景",
         "content": [
-          "國立陽明交通大學 資訊工程研究所 (2021/09 ~)",
+          "國立陽明交通大學 資訊科學與工程研究所 (2021/09 ~)",
           "國立陽明交通大學 資訊工程學系 (2017/09 ~ 2021/06)"
         ]
       },
@@ -221,7 +221,7 @@ var members = [
       {
         "title": "學歷背景",
         "content": [
-          "國立陽明交通大學 資訊工程研究所 (2020/09 ~)",
+          "國立陽明交通大學 資訊科學與工程研究所 (2020/09 ~)",
           "國立交通大學 資訊工程學系 (2016/09 ~ 2020/06)"
         ]
       },
@@ -251,13 +251,13 @@ var members = [
     "features": [
       "顧問"
     ],
-    "img": "members/daren_avatar.JPG",
-    "full_img": "members/daren_avatar_full.JPG",
+    "img": "members/tatsujin_avatar.JPG",
+    "full_img": "members/tatsujin_avatar_full.JPG",
     "description": [
       {
         "title": "學歷背景",
         "content": [
-          "國立陽明交通大學 資訊工程研究所 (2018/09 ~)",
+          "國立陽明交通大學 資訊科學與工程研究所 (2018/09 ~)",
           "國立中央大學 資訊工程學系 (2013/09 ~ 2018/06)"
         ]
       },
