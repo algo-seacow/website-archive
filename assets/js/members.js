@@ -78,8 +78,8 @@ var members = [
       "講師",
       "課程規劃"
     ],
-    "img": "members/henry_avatar.JPG",
-    "full_img": "members/henry_avatar.JPG",
+    "img": "members/henry_avatar.png",
+    "full_img": "members/henry_avatar_full.png",
     "description": [
       {
         "title": "學歷背景與升學經驗",
