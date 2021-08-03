@@ -31,6 +31,33 @@
     <link id="stylesheet" rel="stylesheet" href="assets/css/style.css">
 	</head>
 	<body>
+		<!-- Messenger 洽談外掛程式 Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your 洽談外掛程式 code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "100157515025204");
+      chatbox.setAttribute("attribution", "biz_inbox");
+
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v11.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/zh_TW/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
     <script type="text/javascript" src="./assets/js/nav.js"></script>
 
     <div class="wrap-container bg-white wrap-container-slogan">
@@ -183,14 +210,14 @@
       const debounce = (fn) => {
         let frame;
         return (...params) => {
-          if (frame) { 
+          if (frame) {
             cancelAnimationFrame(frame);
           }
           frame = requestAnimationFrame(() => {
             fn(...params);
           });
 
-        } 
+        }
       };
       const storeScroll = () => {
         document.documentElement.dataset.scroll = window.scrollY;
