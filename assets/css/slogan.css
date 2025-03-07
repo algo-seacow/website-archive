@@ -55,6 +55,11 @@
 	display: inline-block;
 }
 
+.slogan-img {
+    height: 250px;
+    display: inline-block;
+}
+
 .trigger-slogan-animate {
 	-webkit-animation-name: turnblue;
 	-webkit-animation-duration: 0.4s;
@@ -67,7 +72,7 @@
 }
 
 .slogan {
-	font-size: 80;
+	font-size: 80px;
 	font-weight: 600;
 	line-height: 1.5em;
 }
@@ -95,10 +100,10 @@
 		padding: 30px;
 	}
   	.slogan {
-  		font-size: 70;
+  		font-size: 70px;
   	}
   	.slogan-info {
-		font-size: 30;
+		font-size: 30px;
 	}
 
 	.slogan-container img {
@@ -116,10 +121,10 @@
 		padding: 40px;
 	}
   	.slogan {
-  		font-size: 50;
+  		font-size: 50px;
   	}
   	.slogan-info {
-		font-size: 25;
+		font-size: 25px;
 	}
 
 	.slogan-container img {
@@ -137,10 +142,10 @@
 		padding: 50px;
 	}
   	.slogan {
-  		font-size: 40;
+  		font-size: 40px;
   	}
   	.slogan-info {
-		font-size: 20;
+		font-size: 20px;
 	}
 
 	.slogan-container img {
@@ -158,10 +163,10 @@
 		padding: 50px;
 	}
   	.slogan {
-  		font-size: 30;
+  		font-size: 30px;
   	}
   	.slogan-info {
-		font-size: 20;
+		font-size: 20px;
 	}
 
 	.slogan-container img {
@@ -179,10 +184,10 @@
 		padding: 30px;
 	}
   	.slogan {
-  		font-size: 30;
+  		font-size: 30px;
   	}
   	.slogan-info {
-		font-size: 20;
+		font-size: 20px;
 	}
 
 	.slogan-container img {

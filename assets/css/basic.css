@@ -8,5 +8,7 @@
 }
 
 body {
-	font-family: 'Poppins', 'Noto Sans TC', sans-serif;
+	font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+    color: black;
 }

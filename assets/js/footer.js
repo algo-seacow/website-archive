@@ -10,7 +10,7 @@
 //              + '</div>'
 //              + '</div>'
 
-var footer = '<div id="members" class="wrap-container bg-blue">'
+var footer = '<div id="footer" class="wrap-container bg-blue">'
              + '<div class="footer">'
              + '<h2>聯絡我們<br>CONTACT US</h2>'
              // + '<table>'

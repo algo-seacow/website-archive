@@ -49,7 +49,7 @@ var members = [
       {
         "title": "學歷背景",
         "content": [
-          "國立陽明交通大學 資訊科學與工程研究所 (2021/09 ~)",
+          "國立陽明交通大學 資訊工程研究所 (2021/09 ~)",
           "國立陽明交通大學 資訊工程學系 (2017/09 ~ 2021/06)"
         ]
       },
@@ -78,8 +78,8 @@ var members = [
       "講師",
       "課程規劃"
     ],
-    "img": "members/henry_avatar.png",
-    "full_img": "members/henry_avatar_full.png",
+    "img": "members/henry_avatar.JPG",
+    "full_img": "members/henry_avatar.JPG",
     "description": [
       {
         "title": "學歷背景與升學經驗",
@@ -95,7 +95,8 @@ var members = [
           "2020 交大年度賽校內第三",
           "2020 交大新生賽校內第二",
           "2019 HP codewar 全國第六",
-          "2019 學科能力競賽 北二區第五 全國 31"
+          "2019 學科能力競賽 北二區第五 全國 31",
+          "APCS 5/5"
         ]
       },
       {
@@ -220,7 +221,7 @@ var members = [
       {
         "title": "學歷背景",
         "content": [
-          "國立陽明交通大學 資訊科學與工程研究所 (2020/09 ~)",
+          "國立陽明交通大學 資訊工程研究所 (2020/09 ~)",
           "國立交通大學 資訊工程學系 (2016/09 ~ 2020/06)"
         ]
       },
@@ -250,13 +251,13 @@ var members = [
     "features": [
       "顧問"
     ],
-    "img": "members/tatsujin_avatar.JPG",
-    "full_img": "members/tatsujin_avatar_full.JPG",
+    "img": "members/daren_avatar.JPG",
+    "full_img": "members/daren_avatar_full.JPG",
     "description": [
       {
         "title": "學歷背景",
         "content": [
-          "國立陽明交通大學 資訊科學與工程研究所 (2018/09 ~)",
+          "國立陽明交通大學 資訊工程研究所 (2018/09 ~)",
           "國立中央大學 資訊工程學系 (2013/09 ~ 2018/06)"
         ]
       },
@@ -302,10 +303,12 @@ var members = [
   }
 ]
 
+var src_url = "https://people.cs.nctu.edu.tw/~tzuli110/algo-seacow.github.io/";
+
 for (var i = 0; i < members.length; i++) {
   // profile
 	var profile = '<div class="profile" data-aos="zoom-in">'
-                + '<img id="profile-img-' + i + '"class="profile-img" src="assets/images/' + members[i]['img'] + '">'
+                + '<img id="profile-img-' + i + '"class="profile-img" src="' + src_url + 'assets/images/' + members[i]['img'] + '">'
                 + '<h3>' + members[i]['name'] + '</h3>'
   for (var j = 0; j < members[i]['features'].length; j++) {
     profile = profile + '<p>' + members[i]['features'][j];
@@ -314,7 +317,7 @@ for (var i = 0; i < members.length; i++) {
 
   // profile-info
   var profileInfo = '<div id="profile-info-' + i + '" class="profile-info inactive">'
-                    + '<img class="profile-info-img" src="assets/images/' + members[i]['full_img'] + '">'
+                    + '<img class="profile-info-img" src="' + src_url + 'assets/images/' + members[i]['full_img'] + '">'
                     + '<div class="profile-info-text">'
                     + '<h2>' + members[i]['full_name'] + '</h2>'
 
